@@ -8,6 +8,7 @@ first-pass detector for suspicious (possibly defective) parts.
 |---|---|
 | `solution.ipynb` | the full solution (Parts A–E), with outputs saved |
 | `predictions.csv` | one prediction per test image: `image_id,predicted_defect,score` |
+| `train_verified.csv` | `train.csv` + manually verified labels: `verified_label`, `verified_type`, `review`, `review_comment` (written by the notebook; originals unchanged) |
 | `train.csv`, `test.csv`, `images/` | the data provided with the assignment |
 | `Junior Data Analyst.md` | the assignment brief (Hebrew) |
 
